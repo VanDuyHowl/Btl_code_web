@@ -157,15 +157,31 @@ div{
     height:230.75px;
     width:100%;
 }
+.SP_item-info-name{
 
-.SP_item-info-tagName{
-    align-items: stretch;
+}
+.SP_item-info-tagName{  
     text-decoration: none;
     color:black;
 }
+.SP_item-info-tagName:hover{  
+    text-decoration: none;
+    color:red;
+}
+.item-info-tagName{
+    margin:0 7px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    height:3.6rem;
+    overflow: hidden;/*an di phan ten thua*/
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;/*hien thi theo chieu doc*/
+    -webkit-line-clamp: 2;/*hien thi dau... khi da gioi han chieu cao cua the ten*/
+}
 
 .SP_item-info-money{
-    align-items: stretch;
     margin:10px;
 }
 .SP_item-info-money-old{
@@ -345,7 +361,7 @@ div{
 .Sanpham{
     
     margin:5px;
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 .Sanpham-info{
     
