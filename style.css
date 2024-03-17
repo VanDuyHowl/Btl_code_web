@@ -101,7 +101,12 @@ div{
     margin-left: -6px;
     margin-right: -6px;
 }
-
+.carousel-inner img {
+    margin:5px 0;
+}
+  .SP-khung{
+    padding-left: 30px;
+  }
 #accordion{
     margin:5px;
 }
@@ -292,8 +297,7 @@ div{
 .info-buy{
     list-style: none;
     margin-left: -30px;
-    font-size:15px;
-    
+    font-size:15px; 
 }
 .info_list-color{
     font-size: 20px;
