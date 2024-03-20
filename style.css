@@ -101,6 +101,13 @@ div{
     margin-left: -6px;
     margin-right: -6px;
 }
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.danh_muc-icon{
+    margin-top: 10px;
+}
 .carousel-inner img {
     margin:5px 0;
 }
@@ -232,6 +239,142 @@ div{
 .icon{
     color:#3391cf;
 }
+
+#demo{
+    z-index: 0!important;
+
+}
+/*From đăng kí đăng nhập*/
+/*  */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.Dieukhien{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    /* animation: fadeIn linear 0.1s; */
+    /*opacity: 0;Làm mờ chứ kh phải biết mất*/
+    /*pointer-events: none;Tác động được với phần bên dưới nó*/
+
+}
+
+.Dieukhien_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    
+}
+.Dieukhien_body{
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 20px 1px rgb(255, 255, 255,0.8);/*độ nhòe*/
+    z-index: 2 !important;
+}
+.Dieukhien_from{
+    padding:0 30px;
+    width: 500px;
+    width: 500px;
+    background-image: linear-gradient(0,#cad3e7,#1b63cf);
+    border-radius: 5px;
+
+}
+
+.Dangky_Dangnhap_from{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 0;
+}
+.Dangky_Dangnhap_up{
+    font-size: 20px;
+}
+.Dangky_Dangnhap_in{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Dangky_Dangnhap_in:hover{
+    color: white;
+
+}
+.Dangky_Dangnhap{
+
+}
+
+.Inputtxt{
+    width:100%;
+    height:40px;
+    margin-top:16px;
+    padding:0 10px;
+    border-color:#d79b9bdb;
+    border:1px soild #d79b9bdb;
+    border-radius: 2px;
+    outline: none;
+}
+.Inputtxt:focus{
+    border-color: black;
+}
+
+.check-dk{
+    margin-top:10px; 
+}
+.Chinhsach{
+    margin-top: 20px;
+}
+.Chinhsach-dk{
+    font-size: 15px;
+    text-align:center;
+}
+.Chinhsach_link{
+    font-weight: 600;
+    text-decoration: none;
+    color: red;
+}
+.Chinhsach_link:hover{
+    text-decoration: none;
+    color: white;
+}
+.Xacnhan{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.ok{
+    min-width: 140px;
+    height:35px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: white;
+    margin: 0 5px;
+
+}
+.ok:hover{
+    background-color: #dfe6f7;
+}
+.ok.ok-xacnhan{
+    color: black;
+    background-image: linear-gradient(0,#cad3e7,#1b63cf);
+}
+.ok.ok-xacnhan:hover{
+    color: white;
+}
+
 
 /* Chi tiết sản phẩm */
 .trangchu{
