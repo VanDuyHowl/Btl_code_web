@@ -101,6 +101,27 @@ div{
     margin-left: -6px;
     margin-right: -6px;
 }
+/* collapse */
+
+.card-header:hover + .collapse,
+.collapse:hover {
+    max-height: 200px; /* Điều chỉnh giá trị max-height tùy theo nhu cầu */
+}
+
+.collapse {
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height 0.4s ease;
+}
+
+/* Tuỳ chỉnh các kiểu khác cho hiệu ứng hover */
+/* này là đổi icon */
+.card-header:hover .danh_muc-icon {
+     transform:rotate(180deg); 
+}
+
+/*ket thuc collapse*/
+
 .card-header{
     display: flex;
     justify-content: space-between;
@@ -153,16 +174,26 @@ div{
     margin:5px;
     max-width:100%;
     background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
 }
-
+.SP_item-info:hover {
+    /* transform:scale(1.1) */
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+}
 .SP_item-info__book{
-    
+    width:auto;
+    height: 250px; 
 }
-
+.SP-khung{
+    border: 1px;
+    border-radius: 5px;
+    margin:5px;
+    background-color: #ffffff;
+}
 .SP_item-info-img{ 
-    
-    height:230.75px;
-    width:100%;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
 }
 .SP_item-info-name{
 
