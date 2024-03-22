@@ -294,7 +294,7 @@ div{
     bottom: 0;
     left: 0;
     display: none;
-    /* animation: fadeIn linear 0.1s; */
+    animation: fadeIn linear 0.1s;
     /*opacity: 0;Làm mờ chứ kh phải biết mất*/
     /*pointer-events: none;Tác động được với phần bên dưới nó*/
 
