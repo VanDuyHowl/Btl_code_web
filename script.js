@@ -6,5 +6,8 @@ $(document).ready(function(){
         $("#js-back").click(function(){
             $("#js-modal").css("display","none");
         });
+        $("#js-confirm").click(function(){
+            $("#js-modal").css("display","none");
+        });
     });
 });
