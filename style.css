@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 div{
-    display:block;
+    
 }
 .header {
     height: auto;
@@ -92,6 +92,7 @@ div{
     background-color: #dae3f3;
     display:flex;
     flex-wrap:wrap;
+    padding-bottom: 10px;
 }
 
 .row{
@@ -101,6 +102,10 @@ div{
     margin-left: -6px;
     margin-right: -6px;
     padding-left: 1.5rem;
+}
+
+#demo{
+    z-index: 0!important;
 }
 /* collapse */
 
@@ -122,7 +127,6 @@ div{
 }
 
 /*ket thuc collapse*/
-
 .card-header{
     display: flex;
     justify-content: space-between;
@@ -130,12 +134,10 @@ div{
 .danh_muc-icon{
     margin-top: 10px;
 }
+
 .carousel-inner img {
     margin:5px 0;
 }
-  .SP-khung{
-    padding-left: 30px;
-  }
 #accordion{
     margin:5px;
 }
@@ -244,10 +246,8 @@ div{
 }
 
 /* footer */
-.footer{
-    
-}
 .footer__say{
+    height:35px;
     padding:6px 0;
     text-align: center;
     height:auto;
@@ -266,16 +266,13 @@ div{
     list-style: none;
 }
 .footer__information-link:hover{
+    text-decoration: none;
     color:rgb(86, 48, 224);
 }
 .icon{
     color:#3391cf;
 }
 
-#demo{
-    z-index: 0!important;
-
-}
 /*From đăng kí đăng nhập*/
 /*  */
 @keyframes fadeIn{
@@ -287,13 +284,14 @@ div{
     }
 }
 .Dieukhien{
-    
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     display: none;
+    align-items: center;
+    justify-content: center;
     animation: fadeIn linear 0.1s;
     /*opacity: 0;Làm mờ chứ kh phải biết mất*/
     /*pointer-events: none;Tác động được với phần bên dưới nó*/
@@ -434,6 +432,7 @@ div{
     color:rgb(8, 102, 253);
 }
 .li-link:hover{
+    text-decoration: none;
     color:black;
 }
 .thongtin-sp{
@@ -515,12 +514,11 @@ div{
     font-weight: 400;
 }
 .muangay:hover{
+    text-decoration: none;
     color:black;
-    
 }
-
 .noidung{
-    margin-top:px;
+    margin:5px;
     border-radius:5px;
     background-color: white;
 }
