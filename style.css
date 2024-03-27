@@ -5,7 +5,7 @@
 
 .header {
     height: auto;
-    background-image: linear-gradient(0,#cad3e7,#1b63cf);
+    background-image: linear-gradient(0,#b5bed2,#1a58b4);
 }
 
 .grid{
@@ -177,7 +177,7 @@
 
 .Menu__list-itemlink{
      /*Xóa gạch chân */
-    color:#7e8897;
+    color:#777676;
     font-size: 15px;
     padding:8px 20px;
     display:block;
@@ -268,7 +268,7 @@
     padding:6px 0;
     text-align: center;
     height:auto;
-    background-image: linear-gradient(0,#cad3e7,#1b63cf);
+    background-image: linear-gradient(0,#b5bed2,#1a58b4);
 }
 .footer__information{ 
     display:flex;
@@ -331,7 +331,7 @@
     padding:0 30px;
     width: 500px;
     width: 500px;
-    background-image: linear-gradient(0,#cad3e7,#1b63cf);
+    background-image: linear-gradient(0,#b5bed2,#1a58b4);
     border-radius: 5px;
 
 }
@@ -534,11 +534,22 @@
     color:black;
 }
 .noidung{
+    margin-bottom:5px;
     border-radius:5px;
     background-color: white;
 }
 .noidung-chitiet{
     display:inline-block;
+}
+
+.slide-Decu{
+    border-radius:5px;
+    background-color: white;
+    
+}
+
+.item{
+    cursor: pointer;
 }
 
 /*Liệt kê danh mục sản phẩm*/
