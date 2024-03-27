@@ -11,3 +11,26 @@ $(document).ready(function(){
         });
     });
 });
+
+/*Đề cử */
+$('.owl-carousel').owlCarousel({
+    loop:true, //cho phép lặp lại các slide khi chạy
+    margin:10,
+    nav:false,//khong để hiện điều hướng
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplaySpeed:1500,
+    dotsSpeed:1500,
+    autoplayHoverPause:true,//Dừng khi di chuột vào phần owl-carousel
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
