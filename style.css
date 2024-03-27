@@ -545,7 +545,7 @@
 .slide-Decu{
     border-radius:5px;
     background-color: white;
-    
+    z-index: 0;
 }
 
 .item{
