@@ -110,7 +110,7 @@
     background-color: #dae3f3;
     display:flex;
     flex-wrap:wrap;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .row{
@@ -147,7 +147,7 @@
 /*ket thuc collapse*/
 .card-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;/*Dãn cách sang 2 bên lề*/
 }
 .danh_muc-icon{
     margin-top: 10px;
@@ -424,7 +424,7 @@
 
 /* Chi tiết sản phẩm */
 .trangchu{
-    
+    padding-top:10px;
 }
 
 .trangchu-chitiet{
@@ -463,6 +463,7 @@
     display:flex;
 }
 .tieude{
+    padding: 20px 20px 0px 20px;
     text-align: center;
 }
 .theloai{
@@ -554,49 +555,7 @@
 
 /*Liệt kê danh mục sản phẩm*/
 
-.lietke-sp{
-    
-}
-.Sanpham{
-    
-    margin:5px;
-    background-color: #ffffff;
-}
-.Sanpham-info{
-    
-}
-.Sanpham-info-img{
-    text-align: center;
-    width:100%;
-    
-}
-.Sanpham-info-name{
-
-}
-.Sanpham-info-tagName{
-    align-items: stretch;
-    text-decoration: none;
-    color:black;
-}
-.Sanpham-info-money{
-    align-items: stretch;
-    margin:10px;
-}
-.Sanpham-info-money-old{
-    font-size: 14px;
-    color:#7e8897;
-    text-decoration: line-through; /* gạch ngang */
-}
-.Sanpham-info-money-new{
-    font-size: 15px;
-    font-weight: 500;
-    color:red;
-}
-.Sanpham-info-money-sale{
-    font-size: 14px;
-    font-weight: 500;
-    background-color: red;
-    color:rgb(249, 245, 245);
-    border:1px;
-    border-radius: 2px;
+.lietke{
+    background-color: white;
+    border-radius: 5px;
 }
