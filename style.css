@@ -81,7 +81,7 @@
     color:white;
 }
 
-::placeholder{
+.header__search--text::placeholder{
     color:white;
 }
 .header__logo_search-button{
